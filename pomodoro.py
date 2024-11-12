@@ -2,7 +2,6 @@ import time
 import threadpoolctl
 from tkinter import Tk, Label, Button
 from plyer import notification
-
 class PomodoroTimer:
     def __init__(self, root):
         self.root = root
